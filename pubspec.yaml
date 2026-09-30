@@ -1,0 +1,12 @@
+name: safe_plate_ai_server
+description: Backend proxy for Safe Plate AI — holds the Gemini API key server-side, rate-limits requests, and builds prompts.
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.13.1
+
+dependencies:
+  shelf: ^1.4.2
+  shelf_router: ^1.1.4
+  http: ^1.6.0
